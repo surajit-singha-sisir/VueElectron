@@ -4,7 +4,7 @@
     <p>This is the home page of your Vue-Electron SPA.</p>
     <router-link to="/about">Go to About Page (Link)</router-link>
     <br />
-    <button @click="goToAbout">Go to About Page (Button)</button>
+    <button @click="goToAbout" class="m-t-50">Go to About Page (Button)</button>
   </div>
 </template>
 
@@ -23,6 +23,7 @@ const goToAbout = () => {
   text-align: center;
   padding: 20px;
 }
+
 button {
   margin-top: 10px;
   padding: 10px 20px;
@@ -32,7 +33,11 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 button:hover {
   background-color: #369a6d;
+}
+.m-10i {
+  margin: 2rem;
 }
 </style>

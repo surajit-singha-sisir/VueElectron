@@ -9,7 +9,8 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "cssme": "ts-node src/cssGenerator.ts"
   },
   "keywords": [],
   "author": {
@@ -27,11 +28,17 @@
     "@electron-forge/plugin-fuses": "^7.8.0",
     "@electron-forge/plugin-vite": "^7.8.0",
     "@electron/fuses": "^1.8.0",
+    "@types/css": "^0.0.38",
     "@vitejs/plugin-vue": "^5.2.3",
     "electron": "35.2.1",
+    "ts-node": "^10.9.2",
     "vite": "^5.4.18"
   },
   "dependencies": {
+    "@vue/compiler-sfc": "^3.5.13",
+    "axios": "^1.9.0",
+    "chokidar": "^4.0.3",
+    "css": "^3.0.0",
     "electron-squirrel-startup": "^1.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
