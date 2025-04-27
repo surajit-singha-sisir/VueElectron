@@ -1,6 +1,8 @@
 # VueElectron Template
 
 A modern template for building cross-platform desktop applications using **Electron** and **Vue 3**. This project integrates **Vite** for fast development, **Electron Forge** for streamlined packaging, and **Vue Router** for navigation. It includes TypeScript support and a clean project structure to help you get started quickly.
+## Preview
+![image](https://github.com/user-attachments/assets/91cee47f-612d-4f7a-a002-20e052bb4b60)
 
 ## Features
 
