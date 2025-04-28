@@ -10,6 +10,7 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\"",
+    "css": "ts-node src/cssGen.ts",
     "cssme": "ts-node src/cssGenerator.ts"
   },
   "keywords": [],

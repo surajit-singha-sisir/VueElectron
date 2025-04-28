@@ -1,7 +1,8 @@
 <template>
   <div class="about-page">
     <h1>About Page</h1>
-    <p>This is the About page of your Vue-Electron SPA.</p>
+    <p class="m-99:md f-centered f">This is the About page of your Vue-Electron SPA.</p>
+    <p class="m-99:md f-centered f m-tb-10">This is the About page of your Vue-Electron SPA.</p>
     <router-link to="/">Back to Index Page (Link)</router-link>
     <br />
     <button @click="goToIndex">Back to Index Page (Button)</button>

@@ -1,0 +1,114 @@
+{
+  "media-screens": {
+    "xxsm": "220px",
+    "xsm": "320px",
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "xxl": "1536px",
+    "xxxl": "1920px",
+    "xxxxl": "2420px"
+  },
+  "positions": {
+    "all": "left, right, top, bottom",
+    "l": "left",
+    "t": "top",
+    "r": "right",
+    "b": "bottom"
+  },
+
+  "margins": {
+    "property": "margin",
+    "combinations": {
+      "all": "margin-left, margin-right, margin-top, margin-bottom",
+      "lr": "margin-left, margin-right",
+      "rl": "margin-right, margin-left",
+      "tb": "margin-top, margin-bottom",
+      "bt": "margin-bottom, margin-top",
+      "lrt": "margin-left, margin-right, margin-top",
+      "rlt": "margin-right, margin-left, margin-top",
+      "trl": "margin-top, margin-right, margin-left",
+      "tlr": "margin-top, margin-left, margin-right",
+      "ltr": "margin-left, margin-top, margin-right",
+      "tbr": "margin-top, margin-bottom, margin-right",
+      "btr": "margin-bottom, margin-top, margin-right",
+      "lbr": "margin-left, margin-bottom, margin-right",
+      "lrb": "margin-left, margin-right, margin-bottom",
+      "rbl": "margin-right, margin-bottom, margin-left"
+    },
+    "prefix": ["m-", "m--"],
+    "important": true,
+    "media": ["sm", "md", "lg", "xl"]
+  },
+
+  "paddings": {
+    "property": "padding",
+    "combinations": {
+      "all": "padding-left, padding-right, padding-top, padding-bottom",
+      "lr": "padding-left, padding-right",
+      "rl": "padding-right, padding-left",
+      "tb": "padding-top, padding-bottom",
+      "bt": "padding-bottom, padding-top",
+      "lrt": "padding-left, padding-right, padding-top",
+      "rlt": "padding-right, padding-left, padding-top",
+      "trl": "padding-top, padding-right, padding-left",
+      "tlr": "padding-top, padding-left, padding-right",
+      "ltr": "padding-left, padding-top, padding-right",
+      "tbr": "padding-top, padding-bottom, padding-right",
+      "btr": "padding-bottom, padding-top, padding-right",
+      "lbr": "padding-left, padding-bottom, padding-right",
+      "lrb": "padding-left, padding-right, padding-bottom",
+      "rbl": "padding-right, padding-bottom, padding-left"
+    },
+
+    "prefix": ["pad-", "pad--"],
+    "important": true,
+    "media": ["sm", "md", "lg", "xl"]
+  },
+  "backgrounds": {
+    "property": "background",
+    "combinations": {
+      "bg-[ColorName]": "background-color",
+      "bg-[Positions]": ["left", "top", "right", "bottom", "center"],
+      "bg-[Image]": "url('ImageLink');",
+      "bg-[Size]": ["cover", "contain", "auto", "100"]
+    },
+    "prefix": ["bg-", "bg--"],
+    "important": true,
+    "media": ["sm", "md", "lg", "xl"]
+  },
+  "texts": {
+    "property": "text",
+    "combinations": {
+      "text-[ColorName]": "color",
+      "text-xs": "font-size: 0.75rem",
+      "text-sm": "font-size: 0.875rem",
+      "text-md": "font-size: 1rem",
+      "text-lg": "font-size: 1.125rem",
+      "text-xl": "font-size: 1.25rem",
+      "text-xxl": "font-size: 1.5rem",
+      "text-xxxl": "font-size: 1.75rem"
+    },
+    "prefix": ["text-"],
+    "important": true,
+    "media": ["sm", "md", "lg", "xl"]
+  },
+  "border": {
+    "property": "border",
+    "combinations": {
+      "b": "border",
+      "b-t": "border-top",
+      "b-r": "border-right",
+      "b-b": "border-bottom",
+      "b-l": "border-left",
+      "b-lr": "border-left, border-right",
+      "b-rl": "border-right, border-left",
+      "b-tb": "border-top, border-bottom",
+      "b-bt": "border-bottom, border-top"
+    },
+    "prefix": ["border-", "border--"],
+    "important": true,
+    "media": ["sm", "md", "lg", "xl"]
+  }
+}
