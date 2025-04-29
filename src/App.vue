@@ -1,16 +1,17 @@
 <template>
-    <DefaultLayout>
-        <router-view />
-    </DefaultLayout>
+    <router-view />
 </template>
 
-<script>
-import DefaultLayout from './layouts/DefaultLayout.vue';
+<script setup lang="ts">
+import { useHead } from '@vueuse/head';
 
-export default {
-    name: 'App',
-    components: {
-        DefaultLayout,
-    },
-};
+
+useHead({
+    link: [
+        {
+            href: '../assets/styles/onuman.scss',
+            rel: 'stylesheet'
+        }
+    ]
+})
 </script>

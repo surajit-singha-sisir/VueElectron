@@ -32,11 +32,14 @@
     "@types/css": "^0.0.38",
     "@vitejs/plugin-vue": "^5.2.3",
     "electron": "35.2.1",
+    "sass": "^1.87.0",
+    "sass-loader": "^16.0.5",
     "ts-node": "^10.9.2",
     "vite": "^5.4.18"
   },
   "dependencies": {
     "@vue/compiler-sfc": "^3.5.13",
+    "@vueuse/head": "^2.0.0",
     "axios": "^1.9.0",
     "chokidar": "^4.0.3",
     "css": "^3.0.0",

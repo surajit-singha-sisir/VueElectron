@@ -1,3 +1,4 @@
+<!-- src/layouts/DefaultLayout.vue -->
 <template>
     <div class="layout">
         <header class="ios-header">
@@ -13,20 +14,12 @@
     </div>
 </template>
 
-<script>
-import Controls from '../components/Controls.vue';
+<script setup lang="ts">
+import Controls from '../Controls.vue';
 
-export default {
-    name: 'DefaultLayout',
-    components: {
-        Controls,
-    },
-    methods: {
-        openSettings() {
-            alert('Settings clicked!');
-            // Replace with actual settings logic, e.g., this.$router.push('/settings')
-        },
-    },
+const openSettings = () => {
+    alert('Settings clicked!');
+    // Replace with actual settings logic, e.g., router.push('/settings')
 };
 </script>
 

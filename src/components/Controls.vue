@@ -6,35 +6,33 @@
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+const closeWindow = () => {
+    window.electronAPI.closeWindow();
+};
 
-export default defineComponent({
-    name: 'Controls',
-    methods: {
-        closeWindow() {
-            window.electronAPI.closeWindow();
-        },
-        minimizeWindow() {
-            window.electronAPI.minimizeWindow();
-        },
-        maximizeWindow() {
-            window.electronAPI.maximizeWindow();
-        },
-    },
-});
+const minimizeWindow = () => {
+    window.electronAPI.minimizeWindow();
+};
+
+const maximizeWindow = () => {
+    window.electronAPI.maximizeWindow();
+};
 </script>
+
 
 <style scoped>
 .window-controls {
     display: flex;
+    width: 100%;
+    justify-content: flex-end;
     gap: 6px;
     -webkit-app-region: no-drag;
 }
 
 .window-controls button {
-    width: 12px;
-    height: 12px;
+    width: 1rem;
+    aspect-ratio: 1;
     border-radius: 50%;
     border: none;
     cursor: pointer;
